@@ -1,0 +1,30 @@
+# === Python backend ===
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+.env
+*.sqlite
+*.db
+config/
+result/
+memory/
+elasticsearch-7.10.2/
+old_versions/
+**/nohup.out
+
+# === Build outputs ===
+output/
+logs/
+*.log
+
+# === Editor / OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Temp / Cache ===
+*.tmp
+.cache/
