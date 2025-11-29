@@ -921,7 +921,7 @@ class TCA_RAG:
 
 
 # Function to create agent
-def create_acet_agent(config: Config = None, enabled_tools: list = None, logger=None):
+def create_tca_agent(config: Config = None, enabled_tools: list = None, logger=None):
     """
     Factory function to create Agent instance
 
